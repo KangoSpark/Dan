@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dan — Spark AI Writer</title>
+</head>
+<body>
+  <h1>Dan – Spark AI Writer</h1>
+  <label>Brand: <input id="brandname" /></label><br />
+  <label>Product or Service: <input id="productorservice" /></label><br />
+  <label>Audience: <input id="audience" /></label><br />
+  <label>Core Idea: <input id="coreidea" /></label><br />
+  <label>Tone (comma-separated): <input id="tone" /></label><br /><br />
+
+  <label><input type="checkbox" name="output" value="KV Headline" /> KV Headline</label><br />
+  <label><input type="checkbox" name="output" value="OOH Headlines" /> OOH Headlines</label><br />
+  <label><input type="checkbox" name="output" value="Manifesto" /> Manifesto</label><br />
+  <label><input type="checkbox" name="output" value="Body Copy" /> Body Copy</label><br /><br />
+
+  <button id="generateButton">Generate</button>
+  <pre id="suggestions" style="white-space: pre-wrap;"></pre>
+
+  <script src="index.js"></script>
+</body>
+</html>
